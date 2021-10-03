@@ -2,9 +2,10 @@
 
 Participants:
 
-- Leader: [Name - ID]
-- Member: [Name - ID]
-- Member: [Name - ID]
+- Leader: Nguyen Duc Trong - 19522409 
+- Member: Le Duc Tin - 19522348
+- Member: Le Sy Thanh - 19522230
+- Member: Pham Minh Tri - 19522391
 
 
 Task management table: [here](https://trello.com/b/N0dTGGkV) [Replace by your public board later]
@@ -13,10 +14,10 @@ UI / UX prototype: [here](https://www.figma.com/community/file/10172748468627030
 
 Tech stacks:
 
-- Front-end: [...]
-- Back-end: [...]
-- Database: [...]
-- ...
+- Front-end: Le Sy Thanh
+- Back-end: Pham Minh Tri - Nguyen Duc Trong
+- Database: Le Duc Tin
+- 
 
 Demo online: [link to website - update later]
 
