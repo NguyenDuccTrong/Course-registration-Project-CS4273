@@ -8,7 +8,7 @@ Participants:
 - Member: Pham Minh Tri - 19522391
 
 
-Task management table: [here](https://trello.com/b/N0dTGGkV) [Replace by your public board later]
+Task management table: https://trello.com/b/NcRSYqPp/ti%E1%BA%BFn-%C4%91%E1%BB%99-chung
 
 UI / UX prototype: [here](https://www.figma.com/community/file/1017274846862703022) [Replace by your public prototype later]
 
