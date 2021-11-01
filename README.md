@@ -10,7 +10,7 @@ Participants:
 
 Task management table: https://trello.com/b/NcRSYqPp/ti%E1%BA%BFn-%C4%91%E1%BB%99-chung
 
-UI / UX prototype: [here](https://www.figma.com/community/file/1017274846862703022) [Replace by your public prototype later]
+UI / UX prototype: https://www.figma.com/file/4LDGIAmGWccGTVF2S3SuUn/UIGroup7?node-id=11%3A105
 
 Tech stacks:
 
