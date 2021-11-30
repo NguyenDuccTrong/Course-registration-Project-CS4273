@@ -1,0 +1,350 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  position: relative;
+  width: 1746px;
+  height: 1574px;
+  margin: 0 auto;
+}
+
+nav {
+  position: absolute;
+  width: 1746px;
+  height: 64px;
+  left: 0px;
+  top: -1px;
+}
+.Home {
+  width: 60.6px;
+  height: 52.11px;
+  left: 28.55px;
+  top: 1px;
+}
+
+.Home a {
+  position: absolute;
+  width: 60.6px;
+  height: 59.38px;
+  left: 28.55px;
+  top: 1px;
+  list-style: none;
+}
+
+nav .Menu ul {
+  display: flex;
+  list-style: none;
+}
+
+nav .Menu ul li1 {
+  position: absolute;
+  float: left;
+  padding: 0 20px;
+  width: 238px;
+  height: 52.11px;
+  left: 121px;
+  top: 10px;
+}
+
+nav .user-icon {
+  position: absolute;
+  width: 60.06px;
+  height: 60.06px;
+  left: 1650.55px;
+  top: 3px;
+}
+
+nav .Menu ul li2 {
+  position: absolute;
+  float: left;
+  padding: 0 20px;
+  width: 238px;
+  height: 52.11px;
+  left: 310px;
+  top: 10px;
+}
+
+nav .Menu ul li3 {
+  position: absolute;
+  float: left;
+  padding: 0 20px;
+  width: 238px;
+  height: 52.11px;
+  left: 590px;
+  top: 10px;
+}
+nav .Menu ul li4 {
+  position: absolute;
+  float: left;
+  padding: 0 20px;
+  width: 238px;
+  height: 52.11px;
+  left: 860px;
+  top: 10px;
+}
+nav .Menu ul li1 a {
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 29.0859px;
+  line-height: 39px;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+}
+
+nav .Menu ul li2 a {
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 29.0859px;
+  line-height: 39px;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+}
+nav .Menu ul li3 a {
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 29.0859px;
+  line-height: 39px;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+}
+nav .Menu ul li4 a {
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 29.0859px;
+  line-height: 39px;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+}
+.Menu ul li1 a:hover {
+  color: #0021FF;
+}
+
+.Menu ul li2 a:hover {
+  color: #0021FF;
+}
+.Menu ul li3 a:hover {
+  color: #0021FF;
+}
+.Menu ul li4 a:hover {
+  color: #0021FF;
+}
+nav .search {
+  position: absolute;
+  width: 409.79px;
+  height: 55.75px;
+  left: 1250px;
+  top: 3px;
+}
+
+header {
+  position: absolute;
+  width: 1746px;
+  height: 494px;
+  left: -0.45px;
+  top: 62px;
+
+  background: url("https://cdn.glitch.me/3e30c75a-6d2a-4b95-8549-1941573d75cf%2Fdai-hoc-uit%201.svg?v=1638179319888");
+}
+
+.title ul {
+  position: absolute;
+  width: 827px;
+  height: 107px;
+  left: 21.55px;
+  top: 55px;
+
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #09699F;
+
+  border: 1.7px solid #00000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+article {
+  position: absolute;
+  width: 1747px;
+  height: 1018px;
+  left: 0px;
+  top: 556px;
+
+  background: url("https://cdn.glitch.me/3e30c75a-6d2a-4b95-8549-1941573d75cf%2FbackgroundPaytuition.svg?v=1638240362853");
+}
+
+header .search {
+  margin-top: 3px;
+  height: 40px;
+  margin-right: auto;
+}
+
+header .UIT-logo {
+  position: absolute;
+  width: 135px;
+  height: 106px;
+  left: 1577.55px;
+  top: 60px;
+}
+nav .search {
+  font-size: 25px;
+  position: absolute;
+  width: 409.79px;
+  height: 55.75px;
+  background-image: url("https://cdn.glitch.me/3e30c75a-6d2a-4b95-8549-1941573d75cf%2Fsearch.png?v=1638179317687");
+  background-position: 350px 5px;
+  background-repeat: no-repeat;
+  border: 1.51489px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4.84766px 4.84766px rgba(0, 0, 0, 0.25);
+  border-radius: 30.2979px;
+  padding-left: 40px;
+  padding-right: 73px;
+}
+
+
+ProfileInfor {
+  width: 297px;
+  height: 288px;
+  left: 740px;
+  top: 0px;
+  clip-path: circle(100px at 50% 50%);
+  background: url("https://top5vietnam.com/wp-content/uploads/2020/12/One-Piece-anime-2.jpg");
+  position: absolute;
+  background-size: cover;
+  background-size: auto;
+  background-position: center;
+  background-size: contain;
+}
+
+article .Panel1 {
+  position: absolute;
+  width: 596.57px;
+  height: 69px;
+  left: 572.55px;
+  top: 328px;
+
+  background: #AFF1FF;
+  border: 1.5px solid #000000;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+article .MSSV ul {
+  position: absolute;
+  width: 300px;
+  height: 53px;
+  left: 490px;
+  top: 340px;
+
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+}
+article .Panel2 {
+  position: absolute;
+  width: 596.57px;
+  height: 69px;
+  left: 572.55px;
+  top: 450px;
+
+  background: #AFF1FF;
+  border: 1.5px solid #000000;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+article .NGAYSINH ul {
+  position: absolute;
+  width: 300px;
+  height: 53px;
+  left: 519px;
+  top: 462px;
+
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+}
+article .Panel3 {
+  position: absolute;
+  width: 596.57px;
+  height: 69px;
+  left: 572.55px;
+  top: 572px;
+
+  background: #AFF1FF;
+  border: 1.5px solid #000000;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+input:focus {
+  outline: none !important;
+  border-color: #719ECE;
+  box-shadow: 0 0 10px #719ECE;
+}
+article .LOP ul{
+  position: absolute;
+width: 300px;
+height: 53px;
+left: 475px;
+top: 584px;
+
+font-family: Segoe UI;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 40px;
+text-align: center;
+}
+article .Panel4{
+  position: absolute;
+  width: 596.57px;
+  height: 69px;
+  left: 572.55px;
+  top: 694px;
+  
+  background: #AFF1FF;
+  border: 1.5px solid #000000;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+article .GIOITINH ul{
+  position: absolute;
+width: 300px;
+height: 53px;
+left: 509px;
+top: 706px;
+
+font-family: Segoe UI;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 40px;
+text-align: center;
+}
