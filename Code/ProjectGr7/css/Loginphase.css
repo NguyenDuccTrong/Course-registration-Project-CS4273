@@ -1,0 +1,373 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  position: relative;
+  width: 1746px;
+  height: 1574px;
+  margin: 0 auto;
+}
+
+nav {
+  position: absolute;
+  width: 1746px;
+  height: 64px;
+  left: 0px;
+  top: -1px;
+}
+
+.Home {
+  position: absolute;
+  width: 60.6px;
+  height: 59.38px;
+  left: 29.55px;
+  top: 0px;
+}
+
+nav .menu ul {
+  list-style: none;
+}
+
+nav .menu ul li {
+  position: absolute;
+  width: 181.79px;
+  height: 52.11px;
+  left: 140px;
+  top: 9px;
+}
+
+nav .menu ul li a {
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 29.0859px;
+  line-height: 39px;
+  text-align: center;
+  text-decoration: none;
+
+  color: #000000;
+}
+
+.menu ul li a:hover {
+  color: #0021FF;
+}
+
+nav .search {
+  font-size: 25px;
+  position: absolute;
+  width: 409.79px;
+  height: 55.75px;
+  background-image: url(https://cdn.glitch.me/3e30c75a-6d2a-4b95-8549-1941573d75cf%2Fsearch.png?v=1638179317687);
+  background-position: 350px 5px;
+  background-repeat: no-repeat;
+  border: 1.51489px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4.84766px 4.84766px rgba(0, 0, 0, 0.25);
+  border-radius: 30.2979px;
+  padding-left: 40px;
+  padding-right: 73px
+}
+
+nav .search:focus{
+  outline: none !important;
+  border-color: #719ECE;
+  box-shadow: 0 0 10px #719ECE;
+}
+
+nav .KhungSearch {
+  position: absolute;
+  width: 409.79px;
+  height: 55.75px;
+  left: 1302.4px;
+  top: 3px;
+}
+
+nav .searchbutt {
+  position: absolute;
+  width: 35.93px;
+  height: 35.4px;
+  left: 1645px;
+  top: 6px;
+}
+
+header {
+  position: absolute;
+  width: 1746px;
+  height: 494px;
+  left: -0.45px;
+  top: 62px;
+
+  background: url(https://cdn.glitch.me/3e30c75a-6d2a-4b95-8549-1941573d75cf%2FHeaderBG.png?v=1638179324064);
+}
+
+.title ul {
+  position: absolute;
+  width: 827px;
+  height: 107px;
+  left: 21.55px;
+  top: 55px;
+
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #09699F;
+
+  border: 1.7px solid #00000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+article {
+  position: absolute;
+  width: 1747px;
+  height: 1018px;
+  left: 0px;
+  top: 556px;
+
+  background: url(https://cdn.glitch.me/3e30c75a-6d2a-4b95-8549-1941573d75cf%2FMainBG.png?v=1638179319844);
+}
+
+header .search {
+  margin-top: 3px;
+  height: 40px;
+  margin-right: auto;
+}
+
+header .UIT-logo {
+  position: absolute;
+  width: 135px;
+  height: 106px;
+  left: 1577.55px;
+  top: 60px;
+}
+
+article .Logintable ul {
+  position: absolute;
+  width: 300px;
+  height: 53px;
+  left: 160px;
+  top: 10px;
+
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+}
+
+article .Logintable {
+  position: absolute;
+  width: 488px;
+  height: 63.76px;
+  left: 40px;
+  top: 200px;
+
+  background: rgba(129, 233, 248, 0.59);
+  border: 1.5px solid #000000;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+article .Panel1 {
+  position: absolute;
+  width: 488px;
+  height: 534.5px;
+  left: 40px;
+  top: 200px;
+
+  background: rgba(255, 255, 255, 0.23);
+  mix-blend-mode: hard-light;
+  border: 1.5px solid #000000;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+article .Panel2 {
+  position: absolute;
+  width: 391px;
+  height: 270.99px;
+  left: 92px;
+  top: 312px;
+
+  background: rgba(129, 233, 248, 0.35);
+  border: 1.5px solid #000000;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+
+article .Tendangnhap {
+  position: absolute;
+  width: 151px;
+  height: 28.89px;
+  left: 20px;
+  top: 20px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+
+  color: #000000;
+}
+
+article .InputTenDN {
+  position: absolute;
+  width: 306px;
+  height: 30.88px;
+  background-image: url(https://cdn.glitch.me/3e30c75a-6d2a-4b95-8549-1941573d75cf%2Ftendangnhap-icon.png?v=1638194360752);
+  background-position: 8px 2.5px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 25px;
+}
+
+article .KhungNhaptenDN {
+  position: absolute;
+  width: 306px;
+  height: 30.88px;
+  left: 40px;
+  top: 45px;
+}
+
+article .InputMatKhau {
+  position: absolute;
+  width: 306px;
+  height: 30.88px;
+  background-image: url(https://cdn.glitch.me/3e30c75a-6d2a-4b95-8549-1941573d75cf%2Fkey-icon.png?v=1638194141877);
+  background-position: 8px 2.5px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 25px;
+}
+
+article .KhungMatKhau {
+  position: absolute;
+  width: 306px;
+  height: 30.88px;
+  left: 40px;
+  top: 110px;
+}
+
+article .matkhau {
+  position: absolute;
+  width: 151px;
+  height: 28.89px;
+  left: 5px;
+  top: 90px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+
+  color: #000000;
+}
+
+article .loginbutton {
+  position: absolute;
+  width: 88px;
+  height: 29.89px;
+  left: 140px;
+  top: 180px;
+  border-radius: 20px;
+}
+
+article .loginbutton:hover{
+  background-color: #4198FF;
+}
+
+article .QuenMK {
+  position: absolute;
+  width: 176px;
+  height: 20.92px;
+  left: 250px;
+  top: 280px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+
+  color: #000000;
+}
+
+article .Panel3 {
+  position: absolute;
+  width: 1039px;
+  height: 64px;
+  left: 606px;
+  top: 200px;
+
+  background: rgba(129, 233, 248, 0.59);
+  border: 1.5px solid #000000;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+article .Thongbaotable ul {
+  position: absolute;
+  width: 300px;
+  height: 53px;
+  left: 619px;
+  top: 210px;
+
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+
+  color: #000000;
+}
+
+article .Panel4 {
+  position: absolute;
+  width: 1039px;
+  height: 580px;
+  left: 606px;
+  top: 200px;
+
+  background: rgba(255, 255, 255, 0.75);
+  mix-blend-mode: multiply;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+article .Panel4 ul {
+  position: absolute;
+  width: 987px;
+  height: 89px;
+  left: 30px;
+  top: 80px;
+
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 29px;
+  line-height: 39px;
+
+  color: #000000;
+}
