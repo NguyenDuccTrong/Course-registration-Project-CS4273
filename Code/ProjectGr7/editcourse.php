@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/editcourse.css">
-    <link rel="icon" href="https://cdn.glitch.me/3e30c75a-6d2a-4b95-8549-1941573d75cf%2F6c47512d-c83d-47d0-9b3a-f8cf28aade64.image.png?v=1638268575758" />;
+    <link rel="icon" href="https://cdn.glitch.me/3e30c75a-6d2a-4b95-8549-1941573d75cf%2F6c47512d-c83d-47d0-9b3a-f8cf28aade64.image.png?v=1638268575758" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
     <title>Đại học quốc gia</title>
 </head>
 <body>
@@ -57,93 +58,40 @@
         </div>
       </header>
       <article>
-          <div class="list-course-text" id="DSMH">
-              <ul>
-                  DANH SÁCH CÁC MÔN HỌC
-              </ul>
-          </div>
-          <div class="list-course-box">
-              <img src="https://cdn.glitch.me/3e30c75a-6d2a-4b95-8549-1941573d75cf%2FGroup%2014.svg?v=1638261506244", alt="">
-          </div>
-          <button class="button-add-more-course" type="button">
-              <ul>
-                  Đăng kí bổ sung
-              </ul>
-          </button>
           <div class="list-add-course-text">
               <ul>
                   DANH SÁCH CÁC MÔN ĐÃ ĐĂNG KÝ
               </ul>
           </div>
           <div class="list-add-course-box">
-              <img src="https://cdn.glitch.me/3e30c75a-6d2a-4b95-8549-1941573d75cf%2FGroup%2014.svg?v=1638261506244", alt="">
+              <table>
+                  <thead>
+                      <tr>
+                          <th>Mã môn</th>
+                          <th>Tên lớp</th>
+                          <th>Tên môn học</th>
+                          <th>Tín chỉ</th>
+                          <th>Xóa</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td>CS1</td>
+                          <td>CS1.CTTT</td>
+                          <td>Khoa học máy tính 1</td>
+                          <td>4</td>
+                          <td><button><i class="fas fa-trash"></i></button></td>
+                      </tr>
+                      <tr>
+                          <td>CS2</td>
+                          <td>CS2.CTTT</td>
+                          <td>Khoa học máy tính 2</td>
+                          <td>4</td>
+                          <td><button><i class="fas fa-trash"></i></button></td>
+                      </tr>
+                  </tbody>
+              </table>
           </div>
-          <button class="button-delete-course" type="button">
-              <ul>
-                  Xóa môn học
-              </ul>
-          </button>
-          <button class="button-accept-course" type="button">
-              <ul>
-                  Xác nhận
-              </ul>
-          </button>
-          <div class="checkboxes1">
-              <span>
-                <input type="checkbox" name="checkbox-0">
-                <input type="checkbox" name="checkbox-1">
-                <input type="checkbox" name="checkbox-2">
-                <input type="checkbox" name="checkbox-3">
-                <input type="checkbox" name="checkbox-4">
-                <input type="checkbox" name="checkbox-5">
-                <input type="checkbox" name="checkbox-6">
-                <input type="checkbox" name="checkbox-7">
-                <input type="checkbox" name="checkbox-8">
-                <input type="checkbox" name="checkbox-9">
-                <input type="checkbox" name="checkbox-10">
-                <input type="checkbox" name="checkbox-11">
-                <input type="checkbox" name="checkbox-12">
-                <input type="checkbox" name="checkbox-13">
-                <input type="checkbox" name="checkbox-14">
-                <input type="checkbox" name="checkbox-15">
-                <input type="checkbox" name="checkbox-16">
-                <input type="checkbox" name="checkbox-17">
-                <input type="checkbox" name="checkbox-18">
-                <input type="checkbox" name="checkbox-19">
-                <input type="checkbox" name="checkbox-20">
-                <input type="checkbox" name="checkbox-21">
-                <input type="checkbox" name="checkbox-22">
-                <input type="checkbox" name="checkbox-23">
-            </span>
-            </div>
-            <div class="checkboxes2">
-                <span>
-                    <input type="checkbox" name="checkbox-0">
-                    <input type="checkbox" name="checkbox-1">
-                    <input type="checkbox" name="checkbox-2">
-                    <input type="checkbox" name="checkbox-3">
-                    <input type="checkbox" name="checkbox-4">
-                    <input type="checkbox" name="checkbox-5">
-                    <input type="checkbox" name="checkbox-6">
-                    <input type="checkbox" name="checkbox-7">
-                    <input type="checkbox" name="checkbox-8">
-                    <input type="checkbox" name="checkbox-9">
-                    <input type="checkbox" name="checkbox-10">
-                    <input type="checkbox" name="checkbox-11">
-                    <input type="checkbox" name="checkbox-12">
-                    <input type="checkbox" name="checkbox-13">
-                    <input type="checkbox" name="checkbox-14">
-                    <input type="checkbox" name="checkbox-15">
-                    <input type="checkbox" name="checkbox-16">
-                    <input type="checkbox" name="checkbox-17">
-                    <input type="checkbox" name="checkbox-18">
-                    <input type="checkbox" name="checkbox-19">
-                    <input type="checkbox" name="checkbox-20">
-                    <input type="checkbox" name="checkbox-21">
-                    <input type="checkbox" name="checkbox-22">
-                    <input type="checkbox" name="checkbox-23">
-                </span>
-            </div>
       </article>
 </body>
 </html>
