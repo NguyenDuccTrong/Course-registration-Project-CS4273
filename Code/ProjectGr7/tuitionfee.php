@@ -80,8 +80,12 @@
             Thông tin sinh viên
           </ul>
         </div>
-        <div class="information-student-box">
-          <ul><?php 
+          <div class="information-student-box">
+          <table id="info-student">
+          <tr>
+            <th>Họ và tên</th>
+            <td>
+                <?php 
                              $MaSoSV = $_SESSION['MSSV'];
  
                              $sql="SELECT * FROM registration WHERE MaSoSV ='$MaSoSV'";
@@ -93,7 +97,22 @@
                                   echo $row['HoTen'];  
                                 }                               
                              }
-             ?></ul>
+             ?>
+              </td>
+          </tr>
+          <tr>
+            <th>MSSV</th>
+            <td></td>
+          </tr>
+          <tr>
+            <th>Lớp</th>
+            <td></td>
+          </tr>
+          <tr>
+            <th>Ngày sinh</th>
+            <td></td>
+          </tr>
+          </table>
         </div>
         <div class="information-course-term">
           <ul>
@@ -101,11 +120,48 @@
           </ul>
         </div>
         <div class="information-course-term-box">
-          <img
-            src="https://cdn.glitch.me/3e30c75a-6d2a-4b95-8549-1941573d75cf%2FGroup%2011.svg?v=1638199319711"
-            ,
-            alt=""
-          />
+        <table>
+          <tr>
+            <th>Số tín chỉ</th>
+            <td></td>
+          </tr>
+          <tr>
+            <th>Môn đăng ký</th>
+            <td></td>
+          </tr>
+          <tr>
+            <th>Học phí</th>
+            <td></td>
+          </tr>
+          <tr>
+            <th>Số tiền phải đóng</th>
+            <td></td>
+          </tr>
+          <tr>
+            <th>Nợ học kì trước</th>
+            <td></td>
+          </tr>
+          <tr>
+            <th>Số tiền phải đóng</th>
+            <td></td>
+          </tr>
+          <tr>
+            <th>Còn nợ</th>
+            <td></td>
+          </tr>
+          <tr>
+            <th>Tại ngân hàng</th>
+            <td></td>
+          </tr>
+          <tr>
+            <th>Thời gian đóng</th>
+            <td></td>
+          </tr>
+          <tr>
+            <th>Ghi chú</th>
+            <td></td>
+          </tr>
+        </table>
         </div>
         <div class="Show-detail-course">
           <ul>
