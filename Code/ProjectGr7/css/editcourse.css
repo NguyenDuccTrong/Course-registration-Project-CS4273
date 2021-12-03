@@ -227,72 +227,18 @@ nav .search:focus{
 article {
     position: absolute;
     width: 1746px;
-    height: 3124px;
+    height: 1700px;
     left: 2px;
     top: 533px;    
     background: url(https://cdn.glitch.me/3e30c75a-6d2a-4b95-8549-1941573d75cf%2Fbackgroundeditcourse.png?v=1638261281111);
 }
 
-article .list-course-text{
-position: absolute;
-width: 680px;
-height: 64px;
-left: 118px;
-top: 82.5px;
-
-font-family: Segoe UI;
-font-style: normal;
-font-weight: bold;
-font-size: 40px;
-line-height: 46px;
-text-align: center;
-
-color: #000000;
-}
-
-article .list-course-box{
-    
-position: absolute;
-width: 1362px;
-height: 1237.14px;
-left: 193px;
-top: 155px;
-}
-
-article .button-add-more-course{
-position: absolute;
-width: 195.74px;
-height: 64px;
-left: 188.63px;
-top: 1438px;
-
-background: #F9F9F9;
-border: 1.5px solid #000000;
-box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 25px;
-}
-
-article .button-add-more-course:hover{
-    background-color: rgba(207, 207, 207);
-}
-
-article .button-add-more-course ul{
-font-family: Segoe UI;
-font-style: normal;
-font-weight: normal;
-font-size: 23.2px;
-line-height: 27px;
-text-align: center;
-
-color: #000000;
-}
-
 article .list-add-course-text{
 position: absolute;
-width: 763px;
+width: 700px;
 height: 64px;
-left: 155px;
-top: 1590px;
+left: 118px;
+top: 50.5px;
 
 font-family: Segoe UI;
 font-style: normal;
@@ -306,126 +252,45 @@ color: #000000;
 
 article .list-add-course-box{
 position: absolute;
-width: 1360px;
+width: 1362px;
 height: 1237.14px;
-left: 194px;
-top: 1660px;
+left: 193px;
+top: 155px;
 }
 
-article .button-delete-course{
-position: absolute;
-width: 168px;
-height: 64px;
-left: 185px;
-top: 2940px;
-
-background: #F9F9F9;
-box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-border: 1.5px solid #000000;
-border-radius: 25px;
+article .list-add-course-box table{
+    width: 100%;
 }
 
-article .button-delete-course ul{
-position: absolute;
-left:10px;
-top:14px;
-
+article .list-add-course-box th, td{
+border: 1px solid rgb(223, 215, 215);
+padding: 12px;
 font-family: Segoe UI;
-font-style: normal;
-font-weight: normal;
-font-size: 23.2px;
-line-height: 27px;
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #000000;
 }
 
-article .button-delete-course:hover{
-    background-color: #cfcfcf;
+article .list-add-course-box th{
+font-size: 23px;
+background-color: #99f7ff;
 }
 
-article .button-accept-course{
-position: absolute;
-width: 168px;
-height: 64px;
-left: 406px;
-top: 2940px;
-
-background: #F9F9F9;
-border: 1.5px solid #000000;
-box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 25px;
+article .list-add-course-box td{
+    font-size: 20px;
+    text-align: center;
 }
 
-article .button-accept-course ul{
-position: absolute;
-left:32px;
-top:14px;
-
-font-family: Segoe UI;
-font-style: normal;
-font-weight: normal;
-font-size: 23.2px;
-line-height: 27px;
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #000000;    
+article .list-add-course-box tr:hover{
+    background-color: #b9e4fa;
+  }
+  
+article .list-add-course-box tr:nth-child(even){
+    background-color: #d1e4ed;
 }
 
-article .button-accept-course:hover{
-    background-color: #cfcfcf;
-}
-
-article .checkboxes1{
-position: absolute;
-width: 20.95px;
-height: 1208.9px;
-left: 185px;
-top: 134px;
-}
-article .checkboxes1 input{
-display: flex;
-width: 19.96px;
-height: 19.9px;
-left: 214.97px;
-top: 0px;
-
-background: #FFF8F8;
-border: 1.4px solid #000000;
-box-sizing: border-box;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 3px;
-}
-.checkboxes1 input{
-    margin: 31.8px 10px 30px 30px;
-}
-
-article .checkboxes2{
-position: absolute;
-width: 20.95px;
-height: 1208.9px;
-left: 185px;
-top: 1640px;
-}
-
-article .checkboxes2 input{
-display: flex;
-width: 19.96px;
-height: 19.9px;
-left: 214.97px;
-top: 0px;
-
-background: #FFF8F8;
-border: 1.4px solid #000000;
-box-sizing: border-box;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 3px;
-}
-
-.checkboxes2 input{
-    margin: 31.8px 10px 30px 30px;
+article .list-add-course-box button{
+background-color: rgb(228,244,252);
+text-decoration: none;
+padding: 3px 5px;
+margin: 0px 0 0 0;
+font-weight: bold;
+border-radius: 7px;
 }
