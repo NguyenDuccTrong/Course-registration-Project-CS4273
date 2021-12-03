@@ -289,12 +289,37 @@ text-align: center;
 color: #000000;
 }
 
-article .information-student-box{
+article .information-student-box table{
 position: absolute;
 width: 1476px;
 height: 208px;
 left: 136.55px;
 top: 250px;
+border-collapse: collapse;
+width: 80%;
+}
+
+article .information-student-box table th, td{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+article .information-student-box table th{
+  font-size: 23px;
+  font-family: Segoe UI;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #6ee4ff;
+  color:#1e2324;
+  width: 40%;
+}
+
+article .information-student-box td{
+  font-size: 23px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
 }
 
 article .information-course-term{
@@ -314,13 +339,39 @@ text-align: center;
 color: #000000;
 }
 
-article .information-course-term-box{
+article .information-course-term-box table{
 position: absolute;
 width: 1603px;
 height: 709px;
 left: 69.55px;
 top: 550px;
+width: 90%;
+border-collapse: collapse;
 }
+
+article .information-course-term-box th, td{
+  border: 0.5px solid rgb(223, 215, 215);
+  padding: 12px;
+}
+
+article .information-course-term-box td{
+  font-size: 23px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+}
+
+article .information-course-term-box th{
+  font-size: 23px;
+  font-family: Segoe UI;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #6ee4ff;
+  color:#1e2324;
+  width: 40%;
+}
+
 .Show-detail-course{
 position: absolute;
 width: 1002px;
@@ -371,18 +422,4 @@ article .button-pay-course :hover{
     color: #0021FF;
 }
 
-article .information-student-box ul{
-  position: absolute;
-width: 324px;
-height: 28px;
-left: 152.55px;
-top: 813px;
 
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 28px;
-
-color: #000000;
-}
