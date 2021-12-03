@@ -240,6 +240,47 @@ width: 1362px;
 height: 1237.14px;
 left: 191.55px;
 top: 130px;
+width: 90%;
+}
+
+article .infor-course-box th{
+  background-color: #ace7f2;
+  font-size: 23px;
+}
+
+article .infor-course-box td{
+  font-size: 20px;
+  text-align: center;
+}
+article .infor-course-box th, td{
+  border: 1px solid rgb(223, 215, 215);
+  padding: 12px;
+  font-family: Segoe UI;
+}
+article .infor-course-box table{
+width: 90%;
+border-collapse: collapse;
+}
+
+article .infor-course-box tr:hover{
+  background-color: #b9e4fa;
+}
+
+article .infor-course-box tr:nth-child(even){
+  background-color: #d1e4ed;
+}
+
+article .infor-course-box button{
+background-color: rgb(228,244,252);
+text-decoration: none;
+padding: 3px 5px;
+margin: 0px 0 0 0;
+font-weight: bold;
+border-radius: 7px;
+}
+
+article .infor-course-box .fas fa-plus-circle{
+  margin: 50px 0;
 }
 
 article .text-list-register-sub ul{
