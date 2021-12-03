@@ -1,338 +1,93 @@
-* {
-padding: 0;
-margin: 0;
-font-family: "Segoe UI", sans-serif;
-}
-
-html { 
-scroll-behavior: smooth; 
-}
-
-body {
-font-family: "Segoe UI", sans-serif;
-}
-
-.container {
-position: relative;
-width: 1746px;
-height: 1574px;
-margin: 0 auto;
-}
-
-nav {
-display: flex;
-position: absolute;
-width: 1746px;
-height: 64px;
-left: 0px;
-top: -1px;
-}
-
-.Home {
-width: 60.6px;
-height: 52.11px;
-left: 28.55px;
-top: 1px;
-}
-
-.Home a{
-position:absolute;
-width: 60.6px;
-height: 59.38px;
-left: 28.55px;
-top: 1px;
-list-style: none;
-}
-
-header .info-school ul {
-position: absolute;
-width: 827px;
-height: 107px;
-left: 24.55px;
-top: 55px;
-
-font-family: Segoe UI;
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 48px;
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #0A6BA2;
-
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-header .UIT-logo{
-position: absolute;
-width: 135px;
-height: 106px;
-left: 1577.55px;
-top: 60px;
-}
-nav .Menu ul {
-display: flex;
-list-style: none;
-}
-
-nav .Menu ul li1 {
-position:absolute;
-float: left;
-padding: 0 20px;
-width: 238px;
-height: 52.11px;
-left: 121px;
-top: 10px;
-}
-
-nav .user-icon{
-position: absolute;
-width: 60.06px;
-height: 60.06px;
-left: 1650.55px;
-top: 3px;
-}
-
-nav .Menu ul li2 {
-position:absolute;
-float: left;
-padding: 0 20px;
-width: 238px;
-height: 52.11px;
-left: 310px;
-top: 10px;
-}
-
-nav .Menu ul li3 {
-position:absolute;
-float: left;
-padding: 0 20px;
-width: 238px;
-height: 52.11px;
-left: 590px;
-top: 10px;
-}
-nav .Menu ul li4 {
-position:absolute;
-float: left;
-padding: 0 20px;
-width: 238px;
-height: 52.11px;
-left: 860px;
-top: 10px;
-}
-nav .Menu ul li1 a {
-font-family: Segoe UI;
-font-style: normal;
-font-weight: normal;
-font-size: 29.0859px;
-line-height: 39px;
-text-align: center;
-color: #000000;
-text-decoration: none;
-}
-
-nav .Menu ul li2 a {
-font-family: Segoe UI;
-font-style: normal;
-font-weight: normal;
-font-size: 29.0859px;
-line-height: 39px;
-text-align: center;
-color: #000000;
-text-decoration: none;
-}
-nav .Menu ul li3 a {
-font-family: Segoe UI;
-font-style: normal;
-font-weight: normal;
-font-size: 29.0859px;
-line-height: 39px;
-text-align: center;
-color: #000000;
-text-decoration: none;
-}
-nav .Menu ul li4 a {
-font-family: Segoe UI;
-font-style: normal;
-font-weight: normal;
-font-size: 29.0859px;
-line-height: 39px;
-text-align: center;
-color: #000000;
-text-decoration: none;
-}
-
-.Menu ul li1 a:hover{
-color: #0021FF;
-}
-
-.Menu ul li2 a:hover{
-color: #0021FF;
-}
-.Menu ul li3 a:hover{
-color: #0021FF;
-}
-.Menu ul li4 a:hover{
-color: #0021FF;
-}
-
-header .UIT-logo{
-position: absolute;
-width: 135px;
-height: 106px;
-left: 1577.55px;
-top: 60px;
-}
-
-nav .search {
-position: absolute;
-width: 409.79px;
-height: 55.75px;
-left: 1250px;
-top: 3px;
-}
-
-header {
-position: absolute;
-width: 1746px;
-height: 494px;
-left: -0.45px;
-top: 62px;
-background: url(https://cdn.glitch.me/3e30c75a-6d2a-4b95-8549-1941573d75cf%2Fdai-hoc-uit%201.svg?v=1638179319888);
-}
-
-nav .search {
-font-size: 25px;
-position: absolute;
-width: 409.79px;
-height: 55.75px;
-background-image: url(https://cdn.glitch.me/3e30c75a-6d2a-4b95-8549-1941573d75cf%2Fsearch.png?v=1638179317687);
-background-position: 350px 5px;
-background-repeat: no-repeat;
-border: 1.51489px solid #000000;
-box-sizing: border-box;
-box-shadow: 0px 4.84766px 4.84766px rgba(0, 0, 0, 0.25);
-border-radius: 30.2979px;
-padding-left: 40px;
-padding-right: 73px;
-}
-
-nav .search:focus{
-  outline: none !important;
-  border-color: #719ECE;
-  box-shadow: 0 0 10px #719ECE;
-}
-
-article {
-    position: absolute;
-    width: 1746.8px;
-    height: 1319.7px;
-    left: 0.55px;
-    top: 509.3px;
-    background: url(https://cdn.glitch.me/3e30c75a-6d2a-4b95-8549-1941573d75cf%2FbackgroundPaytuition.svg?v=1638240362853);
-}
-
-article .pay-tuition-option{
-position: absolute;
-width: 1539px;
-height: 80px;
-left: 104px;
-top: 200px;
-}
-
-article .pay-tuition-option-school{
-position: absolute;
-width: 718px;
-height: 102px;
-left: 515px;
-top: 440px;
-
-background: #81E9F8;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 20px;
-}
-
-article .pay-tuition-option-school:hover{
-  background-color: #1791e8;
-}
-
-article .pay-tuition-option-school ul{
-font-family: Segoe UI;
-font-style: normal;
-font-weight: normal;
-font-size: 30px;
-line-height: 40px;
-}
-
-article .pay-tuition-option-bidv{
-position: absolute;
-width: 718px;
-height: 102px;
-left: 515px;
-top: 650px;
-
-background: #81E9F8;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 20px;
-}
-
-article .pay-tuition-option-bidv:hover{
-   background-color: #1791e8;
-}
-
-article .pay-tuition-option-bidv ul{
-font-family: Segoe UI;
-font-style: normal;
-font-weight: normal;
-font-size: 30px;
-line-height: 40px;
-}
-
-article .pay-tuition-option-other{
-position: absolute;
-width: 718px;
-height: 102px;
-left: 515px;
-top: 860px;
-
-background: #81E9F8;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 20px;
-}
-
-article .pay-tuition-option-other:hover{
-   background-color: #1791e8;
-}
-article .pay-tuition-option-other ul{
-font-family: Segoe UI;
-font-style: normal;
-font-weight: normal;
-font-size: 30px;
-line-height: 40px;
-}
-
-article .pay-tuition-option-momo{
-position: absolute;
-width: 718px;
-height: 102px;
-left: 515px;
-top: 1070px;
-
-background: #81E9F8;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 20px;
-}
-
-article .pay-tuition-option-momo:hover{
-   background-color: #1791e8;
-}
-article .pay-tuition-option-momo ul{
-font-family: Segoe UI;
-font-style: normal;
-font-weight: normal;
-font-size: 30px;
-line-height: 40px;
-}
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/paytuition.css"/>
+   <link rel="icon" href="https://cdn.glitch.me/3e30c75a-6d2a-4b95-8549-1941573d75cf%2F6c47512d-c83d-47d0-9b3a-f8cf28aade64.image.png?v=1638268575758" />
+    <title>Đại Học Quốc Gia</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+          <div class ="Home">
+                <a href="Mainpage.php">
+                    <img src="https://cdn.glitch.me/3e30c75a-6d2a-4b95-8549-1941573d75cf%2Fhome.png?v=1638179317687" alt=""/>
+                </a>
+            <div class="user-icon">
+              <a href="ProfileInfor.php">
+                <img src="https://cdn.glitch.me/3e30c75a-6d2a-4b95-8549-1941573d75cf%2Fuser-icon.png?v=1638179317687" alt=""/>
+              </a>
+            </div>
+            
+            </div>
+            <div class ="Menu">
+                <ul>
+                    <li1>
+                        <a href="Mainpage.php">Thông báo</a>
+                     </li1>
+                    <li2>
+                        <a href="registersub.php">Đăng kí học phần</a>
+                     </li2>
+                     
+                     <li3>
+                       <a href="editcourse.php">Hiệu chỉnh ĐKHP</a>
+                     </li3>
+         
+                     <li4>
+                       <a href="tuitionfee.php">Thông tin học phí</a>
+                      </li4>
+                </ul>
+            </div>
+          <div class="KhungSearch">
+                <input class="search" type ="search" placeholder="Tìm kiếm...">
+            </div>
+          </nav>
+      <header>
+          <div class="info-school">
+              <ul>
+                  ĐẠI HỌC QUỐC GIA THÀNH PHỐ HỒ CHÍ MINH
+                  <br>
+                  TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN
+              </ul>
+          </div>
+        <div class="UIT-logo">
+          <img src="https://cdn.glitch.me/3e30c75a-6d2a-4b95-8549-1941573d75cf%2FUIT-logo.png?v=1638179317978", alt="">
+        </div>
+      </header>
+      <article>
+          <div class ="pay-tuition-option">
+              <img src="https://cdn.glitch.me/3e30c75a-6d2a-4b95-8549-1941573d75cf%2Ftitle.svg?v=1638240493348", alt="">
+          </div>
+        <form method="get" action="https://ctsv.uit.edu.vn/bai-viet/nhap-hoc-huong-dan-thanh-toan-hoc-phi#STUDENT"> 
+          <button class ="pay-tuition-option-school">
+              <ul>
+                  Chuyển khoản từ Cổng thông tin đào tạo của Trường
+              </ul>
+          </button>
+          </form>
+        <form method="get" action="https://www.bidv.com.vn/smartbanking/">
+          <button class="pay-tuition-option-bidv">
+            <ul>
+              Chuyển khoản từ app BIDV Smart Banking
+            </ul>
+          </button>
+        </form>       
+        <form method="get" action="https://portal.vietcombank.com.vn/Pages/Home.aspx">
+          <button class="pay-tuition-option-other">
+              <ul>
+                  Chuyển khoản từ app của ngân hàng Vietcombank
+              </ul>
+          </button>
+        </form> 
+        <form method="get" action="https://momo.vn">
+          <button class="pay-tuition-option-momo">
+              <ul>
+                  Chuyển khoản qua app Momo
+              </ul>
+          </button>
+        </form>
+      </article>
+</body>
+</html>
