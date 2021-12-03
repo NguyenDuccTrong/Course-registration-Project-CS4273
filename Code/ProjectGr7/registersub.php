@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/registersub.css">
     <link rel="icon" href="https://cdn.glitch.me/3e30c75a-6d2a-4b95-8549-1941573d75cf%2F6c47512d-c83d-47d0-9b3a-f8cf28aade64.image.png?v=1638268575758" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
     <title>Đại Học Quốc Gia</title>
 </head>
 <body>
@@ -63,61 +64,42 @@
               </ul>
           </div>
         <div class="infor-course-box">
-            <img src="https://cdn.glitch.me/3e30c75a-6d2a-4b95-8549-1941573d75cf%2FGroup%2013.svg?v=1638242840006", alt="">
+            <table>
+                <thead>
+                <tr>
+                <th>Mã môn</th>
+                <th>Tên lớp</th>
+                <th>Tên môn học</th>
+                <th>Tín chỉ</th>
+                <th>Thêm</th>
+                 </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <td>CS101</td>
+                    <td>CTTT</td>
+                    <td>Khoa hoc may tinh</td>
+                    <td>4</td>
+                    <td><button><i class="fas fa-plus"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>CS2</td>
+                      <td>CTTT</td>
+                      <td>Khoa hoc may tinh 2</td>
+                      <td>4</td>
+                      <td><button><i class="fas fa-plus"></i></button></td>
+                    </tr>
+                    <tr>
+                      <td>CS3443</td>
+                      <td>CTTT</td>
+                      <td>He thong may tinh</td>
+                      <td>4</td>
+                      <td><button><i class="fas fa-plus"></i></button></td>
+                    </tr>
+                </tbody>
+                </tr>
+            </table>
         </div>
-        <button class="button-accept-subject">
-            <ul>
-                Xác nhận
-            </ul>
-        </button>
-        <input type="checkbox" class="checkbox-submit-1">
-         </input>
-         <input type="checkbox" class="checkbox-submit-2">
-        </input>
-        <input type="checkbox" class="checkbox-submit-3">
-        </input>
-        <input type="checkbox" class="checkbox-submit-4">
-        </input>
-        <input type="checkbox" class="checkbox-submit-5">
-         </input>
-         <input type="checkbox" class="checkbox-submit-6">
-        </input>
-        <input type="checkbox" class="checkbox-submit-7">
-        </input>
-        <input type="checkbox" class="checkbox-submit-8">
-        </input>
-         <input type="checkbox" class="checkbox-submit-9">
-        </input>
-         <input type="checkbox" class="checkbox-submit-10">
-        </input>
-         <input type="checkbox" class="checkbox-submit-11">
-        </input>
-         <input type="checkbox" class="checkbox-submit-12">
-        </input>
-         <input type="checkbox" class="checkbox-submit-13">
-        </input>
-         <input type="checkbox" class="checkbox-submit-14">
-        </input>
-         <input type="checkbox" class="checkbox-submit-15">
-        </input>
-         <input type="checkbox" class="checkbox-submit-16">
-        </input>
-         <input type="checkbox" class="checkbox-submit-17">
-        </input>
-         <input type="checkbox" class="checkbox-submit-18">
-        </input>
-         <input type="checkbox" class="checkbox-submit-19">
-        </input>
-         <input type="checkbox" class="checkbox-submit-20">
-        </input>
-         <input type="checkbox" class="checkbox-submit-21">
-        </input>
-         <input type="checkbox" class="checkbox-submit-22">
-        </input>
-         <input type="checkbox" class="checkbox-submit-23">
-        </input>
-         <input type="checkbox" class="checkbox-submit-24">
-        </input>
       </article>
 </body>
 </html>
