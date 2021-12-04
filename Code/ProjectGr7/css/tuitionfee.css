@@ -1,0 +1,425 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+html { 
+  scroll-behavior: smooth; 
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+}
+
+.container {
+  position: relative;
+  width: 1746px;
+  height: 1574px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  position: absolute;
+  width: 1746px;
+  height: 64px;
+  left: 0px;
+  top: -1px;
+}
+
+.Home {
+  width: 60.6px;
+  height: 52.11px;
+  left: 28.55px;
+  top: 1px;
+}
+
+.Home a{
+  position:absolute;
+  width: 60.6px;
+  height: 59.38px;
+  left: 28.55px;
+  top: 1px;
+  list-style: none;
+}
+
+nav .Menu ul {
+  display: flex;
+  list-style: none;
+}
+
+nav .Menu ul li1 {
+  position:absolute;
+  float: left;
+  padding: 0 20px;
+  width: 238px;
+  height: 52.11px;
+  left: 121px;
+  top: 10px;
+}
+
+nav .user-icon{
+position: absolute;
+width: 60.06px;
+height: 60.06px;
+left: 1650.55px;
+top: 3px;
+}
+
+nav .Menu ul li2 {
+  position:absolute;
+  float: left;
+  padding: 0 20px;
+  width: 238px;
+  height: 52.11px;
+  left: 310px;
+  top: 10px;
+}
+
+nav .Menu ul li3 {
+  position:absolute;
+  float: left;
+  padding: 0 20px;
+  width: 238px;
+  height: 52.11px;
+  left: 590px;
+  top: 10px;
+}
+nav .Menu ul li4 {
+  position:absolute;
+  float: left;
+  padding: 0 20px;
+  width: 238px;
+  height: 52.11px;
+  left: 860px;
+  top: 10px;
+}
+nav .Menu ul li1 a {
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 29.0859px;
+  line-height: 39px;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+}
+
+nav .Menu ul li2 a {
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 29.0859px;
+  line-height: 39px;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+}
+nav .Menu ul li3 a {
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 29.0859px;
+  line-height: 39px;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+}
+nav .Menu ul li4 a {
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 29.0859px;
+  line-height: 39px;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+}
+
+.Menu ul li1 a:hover{
+  color: #0021FF;
+}
+
+.Menu ul li2 a:hover{
+  color: #0021FF;
+}
+.Menu ul li3 a:hover{
+  color: #0021FF;
+}
+.Menu ul li4 a:hover{
+  color: #0021FF;
+}
+
+nav .search {
+  position: absolute;
+  width: 409.79px;
+  height: 55.75px;
+  left: 1250px;
+  top: 3px;
+}
+
+header {
+  position: absolute;
+  width: 1746px;
+  height: 472px;
+  left: -0.45px;
+  top: 62px;
+  background: url(https://cdn.glitch.me/3e30c75a-6d2a-4b95-8549-1941573d75cf%2Fdai-hoc-uit%201.svg?v=1638179319888);
+}
+
+header .info-school ul {
+  position: absolute;
+  width: 827px;
+  height: 107px;
+  left: 24.55px;
+  top: 55px;
+
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #0A6BA2;
+
+  border: 1.7px solid #00000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.icon-school {
+  position: absolute;
+  width: 155px;
+  height: 130px;
+  left: 1568px;
+  top: 55px;
+}
+
+.information-course {
+  position:absolute;
+  width: 644px;
+  height: 74px;
+  left: 0px;
+  top: -60px;
+
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+}
+
+article {
+  position: absolute;
+  width: 1746px;
+  height: 1443.46px;
+  left: 0.55px;
+  top: 532.54px;
+  background: url(https://cdn.glitch.me/3e30c75a-6d2a-4b95-8549-1941573d75cf%2FTuitionFeeBG.png?v=1638264900191);
+}
+
+.information-course ul {
+  position: absolute;
+  width: 644px;
+  height: 74px;
+  left: 548.55px;
+  top: 150px;
+
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  color: #000000;
+}
+input {
+  margin-top: 3px;
+  height: 40px;
+  margin-left: 18px;
+}
+nav .search {
+  font-size: 25px;
+  position: absolute;
+  width: 409.79px;
+  height: 55.75px;
+  background-image: url(https://cdn.glitch.me/3e30c75a-6d2a-4b95-8549-1941573d75cf%2Fsearch.png?v=1638179317687);
+  background-position: 350px 5px;
+  background-repeat: no-repeat;
+  border: 1.51489px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4.84766px 4.84766px rgba(0, 0, 0, 0.25);
+  border-radius: 30.2979px;
+  padding-left: 40px;
+  padding-right: 73px;
+}
+
+nav .search:focus{
+  outline: none !important;
+  border-color: #719ECE;
+  box-shadow: 0 0 10px #719ECE;
+}
+
+header .UIT-logo{
+  position: absolute;
+  width: 135px;
+  height: 106px;
+  left: 1577.55px;
+  top: 60px;
+}
+
+article .information-student ul{
+position: absolute;
+width: 448px;
+height: 51px;
+left: 54.55px;
+top: 200px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 34px;
+line-height: 40px;
+text-align: center;
+
+color: #000000;
+}
+
+article .information-student-box table{
+position: absolute;
+width: 1476px;
+height: 208px;
+left: 136.55px;
+top: 250px;
+border-collapse: collapse;
+width: 80%;
+}
+
+article .information-student-box table th, td{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+article .information-student-box table th{
+  font-size: 23px;
+  font-family: Segoe UI;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #6ee4ff;
+  color:#1e2324;
+  width: 40%;
+}
+
+article .information-student-box td{
+  font-size: 23px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+}
+
+article .information-course-term{
+position: absolute;
+width: 448px;
+height: 51px;
+left: 6.55px;
+top: 500px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 34px;
+line-height: 40px;
+text-align: center;
+
+color: #000000;
+}
+
+article .information-course-term-box table{
+position: absolute;
+width: 1603px;
+height: 709px;
+left: 69.55px;
+top: 550px;
+width: 90%;
+border-collapse: collapse;
+}
+
+article .information-course-term-box th, td{
+  border: 0.5px solid rgb(223, 215, 215);
+  padding: 12px;
+}
+
+article .information-course-term-box td{
+  font-size: 23px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+}
+
+article .information-course-term-box th{
+  font-size: 23px;
+  font-family: Segoe UI;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #6ee4ff;
+  color:#1e2324;
+  width: 40%;
+}
+
+.Show-detail-course{
+position: absolute;
+width: 1002px;
+height: 43px;
+left: 69.55px;
+top: 1280px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+
+color: #037ABD;
+}
+
+article .button-pay-course{
+position: absolute;
+width: 193px;
+height: 66px;
+left: 1400px;
+top: 1300px;
+border-radius: 20px;
+transition-duration: 0.4s;
+background-color: white;
+}
+
+article .button-pay-course ul{
+position:absolute;
+width: 189px;
+height: 61px;
+left: 9px;
+top: 0px;
+
+font-family: Segoe UI;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 34px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+article .button-pay-course :hover{ 
+    color: #0021FF;
+}
+
+
