@@ -14,10 +14,8 @@ UI / UX prototype: https://www.figma.com/file/4LDGIAmGWccGTVF2S3SuUn/UIGroup7?no
 
 Tech stacks:
 
-- Front-end: Le Sy Thanh
-- Back-end: Pham Minh Tri - Nguyen Duc Trong
-- Database: Le Duc Tin
-- 
+- FE, BE, Database: Le Sy Thanh - Le Duc Tin
+- Report: Pham Minh Tri - Nguyen Duc Trong
 
 Demo online: [link to website - update later]
 
